@@ -1,1 +1,4 @@
-alert('Привет,медвед');
+function hello (){
+    alert('Привет,медвед')
+}
+hello();
