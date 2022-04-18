@@ -1,10 +1,124 @@
-body{
-    background:#D0D7FE;
+.block {
+  background-color: skyblue;
+  height: 150vh;
+  padding-top: 120px;
 }
-    
-div{
-  background-color: white;
-  margin:100px auto 0;
-  width: 800px;
-  height: 500px;
+body {
+  margin: 0;
+}
+
+.white-box {
+  padding-top: 90px;
+  background-color: #fff;
+  margin: auto;
+  max-width: 1060px;
+  height: 790px;
+}
+
+.label > h1 {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.content {
+  margin:0 auto;
+  width: 75%;
+  height: 56px;
+  display: flex;
+  background-color: #ccc;
+  border-radius: 30px;
+}
+
+.search-input-wraper {
+  flex: 1;
+  margin-left: 30px;
+}
+
+.search-button-wraper {
+  width: 100%;
+}
+
+.search-button {
+  margin-top: 5px;
+  margin-left: 179px;
+  width: 46px;
+  height: 46px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  background-color: blueviolet;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input {
+  width: 530px;
+  height: 97%;
+  background-color: #ccc;
+  border: none;
+  outline: none;
+  font-size: 25px;
+}
+
+.qwerty {
+  padding-left: 50px;
+  width: 870px;
+}
+.secondbutton {
+  width: 60px;
+  height: 35px;
+  font-size: 20px;
+  color: #fff;
+  background-color: blueviolet;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-done {
+  width: 60px;
+  height: 40px;
+  font-size: 15px;
+  color: #fff;
+  background-color: blueviolet;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.scroll {
+  margin: 0 auto;
+  width: 750px;
+  height: 400px;
+  overflow-y: scroll;
+  border: none;
+}
+.info {
+  margin-left: 120px;
+  margin-top: 30px;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+}
+
+.list-item {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom:1px solid #ccc;
 }

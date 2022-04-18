@@ -1,13 +1,101 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Тестовая страница</title>
-    <link rel="stylesheet" type="text/css" href="Style.css">
-  <script crc="script.js"></script>
+    <meta charset="utf-8" />
+    <title>фон и блок для контента</title>
+    <link rel="stylesheet" type="text/css" href="block.css" />
+    <style>
+      ul li + li {
+        padding: 5px 15px;
+      }
+      ul li {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+      }
+      
+    </style>
   </head>
   <body>
-    <p>Жизнь пролетает у всех по разному, у меня БОКОМ</p>
-<img src="https://s.048.ua/section/afisha_event/upload/pers/4/img/afisha/000/000/054/6738584121341890567087464541626876967256064n_5d4001e2c67ca.jpg" alt="fatal error">
+    <div class="block">
+      <div class="white-box">
+        <div class="label">
+          <h1>TODOLIST</h1>
+        </div>
+
+        <div class="content">
+          <div class="search-input-wraper">
+            <input type="text" placeholder="New todo" class="search-input" />
+          </div>
+          <div class="search-button-wraper">
+            <div class="search-button">+</div>
+          </div>
+        </div>
+
+        <div class="qwerty">
+          <div class="info">You have 10 panding items</div>
+        </div>
+        <div class="scroll">
+          <ul class="list">
+            <li class="list-item">
+              <div>Read the book</div>
+              <div>
+                <button class="btn-done" type="button" value="">Done</button>
+              </div>
+            </li>
+            <li class="list-item">
+              <div>Pick a project</div>
+              <div>
+                <button class="btn-done" type="button" value="">Done</button>
+              </div>
+            </li>
+            <li class="list-item">
+              <div>Go to the gym</div>
+              <div>
+                <button class="btn-done" type="button" value="">Done</button>
+              </div>
+            </li>
+            <li class="list-item">
+              <div>Learn JS</div>
+              <div>
+                <button class="btn-done" type="button" value="">Done</button>
+              </div>
+            </li>
+            <li class="list-item">
+              <div>Dont forget to eat</div>
+              <div>
+                <button class="btn-done" type="button" value="">Done</button>
+              </div>
+            </li>
+            <li class="list-item">
+              <div>Do homework</div>
+              <div>
+                <button class="btn-done" type="button" value="">Done</button>
+              </div>
+            </li>
+            <li class="list-item">
+              <div>Read the book</div>
+              <div>
+                <button class="btn-done" type="button" value="">Done</button>
+              </div>
+            </li>
+            <li class="list-item">
+              <div>Do homeswork</div>
+              <div>
+                <button class="btn-done" type="button" value="">Done</button>
+              </div>
+            </li>
+            <li class="list-item">
+              <div>Do homeswork</div>
+              <div>
+                <button class="btn-done" type="button" value="">Done</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
